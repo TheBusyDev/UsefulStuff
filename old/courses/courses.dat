@@ -1,0 +1,13 @@
+# this is a comment
+# please, insert your courses in the following format:
+# [virtual room name] [weekday] [hour]
+# where [virtual room name]="prof_name.prof_surname", [weekday]=integer number from 1 to 7, [hour]=integer number from 1 to 24
+# example: fabio.inzoli 1 10
+
+fabio.inzoli 1 10
+pierluigi.dilizia 2 10
+riccardo.zich 2 14
+fabio.inzoli 2 16
+giorgio.besagni 3 14
+riccardo.zich 4 10
+pierluigi.dilizia 4 14

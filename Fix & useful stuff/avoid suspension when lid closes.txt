@@ -1,0 +1,2 @@
+sudo systemctl mask suspend.target # disable suspension
+sudo systemctl unmask suspend.target # enable suspension

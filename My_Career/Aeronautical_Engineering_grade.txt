@@ -1,0 +1,12 @@
+
+Aerodinamica: 29 10
+
+AerospaceStructures: 24 10
+
+AirplanePerformanceAndDynamics: 33 10
+
+StructuralDynamicsAndAeroelasticity: 28 10
+
+NumericalModelingOfDiffProblems: 33 6
+
+CompressibleFluidDynamics: 33 8

@@ -1,0 +1,14 @@
+# mount system partitions
+sudo mount /dev/nvme0n1p4 /mnt 		# mount LINUX partition
+sudo mount /dev/nvme0n1p1 /mnt/boot/efi	# mount EFI partition
+sudo mount --bind /dev	  /mnt/dev
+sudo mount --bind /proc	  /mnt/proc
+sudo mount --bind /sys	  /mnt/sys
+
+# reinstall grub
+sudo grub-install --boot-directory=/mnt/boot /dev/nvme0n1 # fix GRUB
+
+# if it doesn't work, try:
+# 	sudo chroot /mnt
+# 	nano /etc/default/grub
+# 	update-grub

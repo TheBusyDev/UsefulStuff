@@ -1,0 +1,13 @@
+# NOTE: especially useful after restoring snapshots with btrfs
+
+# install kernel (need to re-install kernel after restoring snapshots)
+sudo dnf install kernel-6.10.10-200.fc40.x86_64
+
+# remove installed kernel
+sudo dnf remove $(rpm -qa | grep kernel | grep 6.10.10) # replace 6.10.10 with kernel version
+
+# if the command above does not work, try:
+sudo kernel-install remove 6.9.12-200.fc40.x86_64 --verbose # remove kernel version
+sudo kernel-install add-all --verbose # add all the installed kernel versions
+
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg # update grub

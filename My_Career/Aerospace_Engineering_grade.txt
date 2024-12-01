@@ -1,0 +1,48 @@
+
+Analisi1: 26 10
+
+Chimica: 33 7
+
+IstituzioniIngegneriaAerospaziale: 27 8
+
+RappresentazioneTecnica: 28 7
+
+Analisi2: 33 10
+
+FisicaSperimentale: 30 12
+
+Informatica: 33 6
+
+Elettrotecnica: 30 10
+
+MeccanicaAerospaziale: 30 10
+
+FisicaTecnica: 30 10
+
+Automatica: 33 8
+
+CalcoloNumerico: 29 10
+
+Economia: 27 6
+
+ImpiantiSistemiAerospaziali: 30 8
+
+MeccanicaStrutturale: 33 10
+
+PropulsioneAerospaziale: 30 7
+
+DinamicaSistemiAerospaziali: 30 8
+
+Fluidodinamica: 30 10
+
+TecnologieMaterialiAerospaziali: 30 7
+
+MeccanicaVoloAtmosferico: 33 5
+
+ProvaFinaleIAMS: 30 1
+
+ProvaFinalePropulsione: 30 1
+
+ProvaFinaleMateriali: 30 1
+
+SperimentazioneAerospaziale: 30 6
