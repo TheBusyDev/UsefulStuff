@@ -10,3 +10,9 @@ StructuralDynamicsAndAeroelasticity: 28 10
 NumericalModelingOfDiffProblems: 33 6
 
 CompressibleFluidDynamics: 33 8
+
+Turbulence: 30 8
+
+ComputationalTechniquesForThermochemicalPropulsion: 30 8
+
+ComputationalFluidDynamics: 33 8
