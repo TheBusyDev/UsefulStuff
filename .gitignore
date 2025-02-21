@@ -1,0 +1,6 @@
+# do not sync webui stuff
+.webui_secret_key
+
+# do not sync latest backup and update date
+latest_backup.txt
+latest_update.txt
